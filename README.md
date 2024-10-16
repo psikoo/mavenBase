@@ -25,7 +25,7 @@ mvn clean validate compile assembly:assembly -DdescriptorId=jar-with-dependencie
 maven install.cmd is a script that runs during the full build process, its main pourpouse is to create a folder named "projectname" in your desktop that contains everything necessary to run the program. It coppies in the .jar, readme, and start.cmd.
 
 - ⚠ Linux and macOS
-mavenInstall.cmd only a utility script and its not needed for the building process, it runs after the .jar is built. If you are building this on linux or macOS you can get the game .jar from projectname/target/pokemon-1-jar-with-dependencies.jar, run it using `java -jar projectname-1-jar-with-dependencies.jar`
+mavenInstall.cmd only a utility script and its not needed for the building process, it runs after the .jar is built. If you are building this on linux or macOS you can get the game .jar from "target/projectname-1-jar-with-dependencies.jar", run it using `java -jar projectname-1-jar-with-dependencies.jar`
 
 ## What if i dont whant my project name to be "projectname"
 
